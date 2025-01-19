@@ -954,7 +954,7 @@ function getBeast()
 	local player = game.Players:GetChildren()
 	for i=1, #player do
 		local character = player[i].Character
-		if player[i]:findFirstChild("TempPlayerStatsModule"):findFirstChild("IsBeast").Value == true or (character ~= nil and character:findFirstChild("Hammer")) then
+		if (character:findFirstChild("Hammer") then
 			return player[i]
 		end
 	end
