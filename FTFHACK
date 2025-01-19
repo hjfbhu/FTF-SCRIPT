@@ -1090,7 +1090,7 @@ avoid = 10.0
 }
 
 
-local beastNearby = ((game.Players.LocalPlayer.Character.HumanoidRootPart.Position - beast.Character:findFirstChild("HumanoidRootPart").Position).magnitude < 50)
+local beastNearby = ((game.Players.LocalPlayer.Character.HumanoidRootPart.Position - beast.Character:findFirstChild("HumanoidRootPart").Position).magnitude < 65)
 for i, pc in ipairs(pcs) do
 if beastNearby then
 print("beast nearby")
